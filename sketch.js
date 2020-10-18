@@ -36,6 +36,11 @@ function setup() {
     plinkos.push(new Plinko (d, 275, 10));
   }
  
+  for (var e = 15; e <=width; e = e + 50){
+
+    plinkos.push(new Plinko (e, 375, 10));
+  }
+  
 }
 
 function draw() {
